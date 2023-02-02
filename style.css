@@ -280,6 +280,10 @@ body {
     width: auto;
     padding: 2m;
   }
+  .benefit {
+    max-width: 100%;
+    margin-bottom: 2em;
+  }
   /* Event location */
   #location {
     flex-direction: column;
@@ -287,20 +291,50 @@ body {
     text-align: center;
     padding: 2em 0;
   }
-  C {
+  #address {
     order: 2;
     flex-direction: column;
+    max-width: 100%;
   }
-  #disclamer i {
+  #address i {
     margin: 0.3em 0;
   }
-  #about-location location {
+  #about-location {
     order: 1;
     max-width: 100%;
   }
   #about-location h3 {
+    margin-bottom: 0;
+  }
+  #about-location p {
     display: none;
   }
+  /* Event details container */
+  .detail {
+    flex-direction: column;
+    margin-bottom: 0.5em;
+    gap: 0;
+  }
+  .detail img {
+    width: 100%;
+    margin: 2em 0;
+  }
+  #detail-1 img {
+    display: none;
+  }
+
+  .detail-description {
+    padding: 0;
+  }
+  #detail-3 img {
+    order: 2;
+  }
+
+  #detail-3 .detail-description {
+    order: 1;
+  }
+  /* Call to Action Section */
+  #cta .btn {
+    width: 80%;
+  }
 }
-/* assistir ate 1:08:39 */
-/* https://www.youtube.com/watch?v=6wd7PK3G7Zo&list=PLnDvRpP8Bnew4ZYLYp47sD52OHQfHNdGB&index=7 */
